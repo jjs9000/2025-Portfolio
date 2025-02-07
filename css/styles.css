@@ -4238,3 +4238,27 @@ img.u-pull-left {
         right : 6vw;
     }
 }
+
+.intro-social {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+}
+
+.intro-social li {
+    display: inline-block;
+}
+
+.intro-social li a {
+    text-decoration: none;
+    font-size: 28px;
+    color: #fff; /* Change based on your theme */
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.intro-social li a:hover {
+    transform: scale(1.3); /* Makes the icon bigger on hover */
+    color: #ffcc00; /* Change to desired hover color */
+}
+
