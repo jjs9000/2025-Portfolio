@@ -369,8 +369,8 @@
                 downloadBtn.addEventListener("click", function(event) {
                     event.preventDefault();
                     const link = document.createElement("a");
-                    link.href = "file/Farris Hirzan.pdf"; // Replace with actual CV file path
-                    link.download = "Farris Hirzan.pdf";
+                    link.href = "file/Muhammad Farris Hirzan.pdf"; // Replace with actual CV file path
+                    link.download = "Muhammad Farris Hirzan.pdf";
                     document.body.appendChild(link);
                     link.click();
                     document.body.removeChild(link);
