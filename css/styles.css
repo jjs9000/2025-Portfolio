@@ -3446,7 +3446,7 @@ img.u-pull-left {
 }
 
 .about-expertise .skills-list li:not(:last-child)::after {
-    content : ", ";
+    content : " ";
 }
 
 /* --------------------------------------------------------------------
@@ -4260,5 +4260,16 @@ img.u-pull-left {
 .intro-social li a:hover {
     transform: scale(1.3); /* Makes the icon bigger on hover */
     color: #ffcc00; /* Change to desired hover color */
+}
+
+.skill-icon {
+    width: 100px;
+    height: 100px;
+    margin: 15px;
+    transition: transform 0.3s ease; /* Smooth transition */
+}
+
+.skill-icon:hover {
+    transform: scale(1.2); /* Increases size by 20% on hover */
 }
 

@@ -378,4 +378,10 @@
             }
         });
 
+        new TypeIt("#element", {
+            strings: "Hello World",
+            speed: 100,
+            loop: true,
+          }).go();
+
 })(document.documentElement);
